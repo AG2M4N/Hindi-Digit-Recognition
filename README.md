@@ -119,29 +119,6 @@ Requires microphone access. On macOS: System Settings → Privacy & Security →
 
 ---
 
-## Web Demo (HuggingFace Spaces)
-
-See [`demo/`](demo/) for the Gradio app. Deployment:
-
-```bash
-git clone https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
-cd YOUR_SPACE_NAME
-git lfs install
-
-cp "/path/to/SMAI A3/demo/app.py" .
-cp "/path/to/SMAI A3/demo/requirements.txt" .
-cp "/path/to/SMAI A3/demo/.gitattributes" .
-cp -r "/path/to/SMAI A3/approach1_whisper_finetuned" .
-cp "/path/to/SMAI A3/Main/approach2_model.pt" .
-cp "/path/to/SMAI A3/Main/approach3_model.pt" .
-
-git add .
-git commit -m "deploy"
-git push
-```
-
----
-
 ## Requirements
 
 ```bash
