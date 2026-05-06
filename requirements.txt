@@ -1,0 +1,23 @@
+# Core
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.36.0
+
+# Audio
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Terminal live inference (mic + keypress)
+sounddevice>=0.4.6
+pynput>=1.7.6
+
+# Data / metrics
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Plots
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web demo
+gradio>=4.19.0
