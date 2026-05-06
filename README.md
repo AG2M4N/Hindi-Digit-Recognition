@@ -101,7 +101,7 @@ Or use the unified notebook:
 jupyter notebook all_approaches.ipynb
 ```
 
-Each script saves the best model (by validation accuracy, with early stopping) and outputs a results PNG with training loss, validation accuracy, and confusion matrix.
+Each script saves the best model (by validation accuracy, with early stopping) and outputs a results PNG with training loss, validation accuracy, confusion matrix and saves the model.
 
 ---
 
