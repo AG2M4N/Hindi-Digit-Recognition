@@ -82,21 +82,7 @@ SMAI A3/
 ---
 
 ## Training
-
-Run each script from the repo root (after running `augment_dataset.py` first):
-
-```bash
-# Approach 1
-python Main/approach1_whisper_finetune.py
-
-# Approach 2
-python Main/approach2_wav2vec2.py
-
-# Approach 3
-python Main/approach3_mfcc_cnn.py
-```
-
-Or use the unified notebook:
+Run use the unified notebook:
 ```bash
 jupyter notebook all_approaches.ipynb
 ```
