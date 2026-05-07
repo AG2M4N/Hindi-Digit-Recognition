@@ -19,8 +19,8 @@ from pynput import keyboard
 
 ORIGINAL_PATH = "SMAI Dataset (wav)"
 AUG_PATH      = "SMAI Dataset (wav) - Augmented"
-SPLIT_FILE    = "dataset_split.json"
-MODEL_SAVE    = "approach3_model.pt"
+SPLIT_FILE    = "../dataset_split.json"
+MODEL_SAVE    = "../approach3_model.pt"
 SAMPLE_RATE   = 16000
 N_MFCC        = 40
 MAX_FRAMES    = 100

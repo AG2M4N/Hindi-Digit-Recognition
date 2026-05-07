@@ -19,8 +19,9 @@ from pynput import keyboard
 
 hf_logging.set_verbosity_error()  # silence HF_TOKEN notices and load reports
 
-MODEL_DIR   = "approach1_whisper_finetuned"
+MODEL_DIR   = "../approach1_whisper_finetuned"
 SAMPLE_RATE = 16000
+
 
 NUM_CLASSES = 11   # 0-9 digits + 10 = unknown
 

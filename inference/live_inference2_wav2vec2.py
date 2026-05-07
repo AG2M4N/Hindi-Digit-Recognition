@@ -22,9 +22,9 @@ hf_logging.set_verbosity_error()
 ORIGINAL_PATH = "SMAI Dataset (wav)"
 AUG_PATH      = "SMAI Dataset (wav) - Augmented"
 SPLIT_FILE    = "dataset_split.json"
-MODEL_SAVE    = "approach2_model.pt"       # head weights only
-TRAIN_CACHE   = "approach2_train_cache.pt"
-TEST_CACHE    = "approach2_test_cache.pt"
+MODEL_SAVE    = "../approach2_model.pt"       # head weights only
+TRAIN_CACHE   = "../approach2_train_cache.pt"
+TEST_CACHE    = "../approach2_test_cache.pt"
 MODEL_ID      = "facebook/wav2vec2-base"
 SAMPLE_RATE   = 16000
 MAX_AUDIO_LEN = 32000
